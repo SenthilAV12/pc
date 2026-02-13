@@ -1,0 +1,66 @@
+body{
+    
+   font-family: 'Poppins', sans-serif;
+   background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card{
+    background-color: rgb(135, 199, 210);
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: 0 5px 10px hwb(35 2% 1%);
+    text-align: center;
+    color: rgb(251, 5, 5);
+    width: 300px;
+}
+
+.profile-card img{
+    
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    width: 15px;
+    height: auto;
+}
+
+h1{
+    margin: 40px;
+
+}
+
+.social-media a{
+    text-decoration: none;
+    margin :0px 10px;
+    color: rgb(243, 242, 242);
+    font-weight: bold;
+        transition:all .5s ease-out;
+
+    
+}
+
+.social-media a:hover{
+    color:rgb(107, 128, 0);
+        transform: scale(1.1);
+
+}
+
+#btn{
+    margin-top: 25px;
+    padding: 10px 20px;
+    background: rgb(246, 191, 103);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition:all .5s ease-out;
+}
+
+#btn:hover{
+        background: rgb(222, 158, 62);
+    transform: scale(1.1);
+}
